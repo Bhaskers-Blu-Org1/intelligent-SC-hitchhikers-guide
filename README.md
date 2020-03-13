@@ -1,5 +1,5 @@
 # Article Title:
-A hitchhiker's guide to Intelligent Supply Chain
+A hitchhiker's guide to the Intelligent Supply Chain
 
 
 # Article Subtitle:
@@ -8,71 +8,112 @@ Supply Chain application development made easier for developers
 
 # Introduction:
 
-This document provides a glossary, links and guides to topics about Intelligent Supply Chain.  It is a guide for developers, created by developers who are working with IBM's Open Intelligent Supply Chain.
+Intelligent supply chains are changing the game when it comes to traditional warehouses, retailers, and consumers in general. These types of supply chains connect people, both consumers and supply chain practitioners, with information and things that create entirely new experiences for all of us, much like when Arthur Dent found himself hitchhiking to new worlds in the "Hitchhiker's Guide to the Galaxy" series by Douglas Adams!  
 
-Intelligent Supply Chains are changing the game when it comes to traditional warehouses, retailers, and consumers in general.  These type of supply chains connect people with processes, and things to enable visibilty, communication, planning, analysis, and execution. IBM's Sterling Supply Chain helps developers get end-to-end visibilty into the data and provides access to services that enables them to build intelligent business networks. Couple that with Artificial Intelligence which is helping to close the gap between what is fact and fiction in supply chain systems.
+Intelligent supply chains first and foremost enable visibility to what is happening across our plan- make- deliver supply chain functions, in essence creating a map of what’s going on where.  Visibility requires integrating systems, connecting devices, building networks and ultimately making sense of all that data.
 
-Developers in the supply chain industry need to build unique solutions that are constantly dealing with:
+With the map one can now navigate the supply chain, but it’s the purpose-built artificial intelligence capabilities that enable **Intelligent** navigation of the supply chain and its challenges.
 
-* Order fulfillment/Demand Planning: predicting customer demand while avoiding supply shortages
-* Returns Management: addressing product returns
-* Supplier Relationship: customer-service management issues
-* Product development & commercialization
-* Warehouse management
+Developers in the supply-chain industry need to build tailored solutions for their clients.  It’s true that no two supply chains in the galaxy are exactly alike.  Developers much contend with:
 
-Developers need the right tools and technologies to help customize and configure solutions that reaches outside of the supply chain to solve issues connected with other parts of the business.  An intelligent supply chain system provides just that.  Supply chain management does not only refer to the movement of physical products through a supply chain but also the data associated with said products, including invoices, schedules and delivery information.  Developers needs software that provides visibility and clarity across the length of the supply chain.
+Plan
 
-The following sections are organized in alphabetical order. Although Douglas Adam's <i>Hitchhiker's Guide to the Galaxy</i> series started with initial doubts, followed by cautious enthusiasm and ended with greater alarm, we promise your experience with this guide will not be remotely similar - please sit back and enjoy the ride
+* Demand planning -- Predicting what customers are going to buy and where they will buy, both geographically and by channel
 
-# Learn Key Terminology:
+* Procurement and supplier management – Procuring the materials and services needed when you need them
 
-* Customer requirement processing - The Customer Requirement Processing process component provides the controlling of customer requirements in the supply chain. This involves checking product availability, receiving, preparing, and passing customer requirements on to supply planning and logistics, and providing feedback on fulfillment.
+Make
 
-* eSCM - electronic supply chain - Electronic supply (e-supply) chain management is the evolving process of managing different supply streams digitally.  To properly run a business, you must make sure that you have the correct stock, the ability to replenish inventory when you need to and knowledge of how much you need to up charge on your inventory to turn a profit.  eSCM takes the concept of electronic business (e-business) and marries that with supply chain management (SCM).
+* Manufacturing, assembly, picking and packing, and warehouse management—having the right on hand inventory and skills to meet your company’s plans and schedules
 
-* eBA - embedded business network - is a framework that is built upon an open and hybrid multi-cloud. It enables domain-specific process automation.  Developers describe the business domain to a machine unlike traditional dialogs that are based on rule-based reasoning or predictive technology.
+Deliver
 
-* Purchase Order processing - The purchase order process is the journey of a purchase order (PO) from creation through purchase order approval, dispatch, delivery, invoicing, and closure. It also includes budget checks, contract management, quality checks, and more. It is advantagous to make use of a cloud-based solution for this processing.
+* Order fulfillment and delivery – Getting the product into the hands of the customer when and how they want it
 
-* Inventory Management - Inventory management is the supervision of non-capitalized assets (inventory) and stock items. A component of supply chain management, inventory management supervises the flow of goods from manufacturers to warehouses and from these facilities to point of sale.
+* Returns management – Efficiently managing the growing number of product returns
 
-* Order Management - Order management involves the seamless integration of orders from multiple channels with inventory databases, data collection, order processing including credit card verification, fulfillment systems and returns across the entire fulfillment network.
+Supply-chain management not only refers to the movement of physical products through a supply chain but also the data associated with those products, including invoices, schedules, and delivery information. Developers need the right tools and technologies to help build meaningful solutions.  They not only need to be able to tap into the areas mentioned above, but they may also need to reach outside of the supply chain to solve issues connected with other parts of the business. An intelligent supply-chain system provides just that. Developers needs software components that can be assembled efficiently and built upon purposefully to meet the needs of their clients.
 
-* Multi-channel Order Aggregation - This is a process that collects orders from more than one source and aggregates them into a single location, this could be into your own system or that of a 3rd party.
-
-* Warehouse Management - A warehouse management system is a software application designed to support and optimize warehouse functionality and distribution center management.
-
-* Return Management - Returns management is the supply chain management process by which activities associated with returns, reverse logistics, gatekeeping, and avoidance are managed within the firm and across key members of the supply chain.
-
-* Intelligent, self-correcting supply chains use artificial intelligence so you can make better decisions and take more informed actions faster.
-
-* Docker - Ccontainer-based (meaning: everything needed to run an application is packaged) architecture that modernizes and increases solution delivery flexibility.
-
-* OMS - Order Management System - An order management system (OMS) is an electronic system developed to execute securities orders in an efficient and cost-effective manner. Brokers and dealers use order management systems when filling orders for various types of securities and can track the progress of each order throughout the system
-
-* Cognitive Analytic Engine - IBM Sterling Fulfillment Optimizer with Watson is a cognitive analytic engine that enhances existing order management systems. It provides a “big data brain” to order management and inventory visibility systems that are already in place with retailers who have eCommerce fulfillment capability.
+This article provides a glossary, links, and guides to topics about intelligent supply chain. It is a guide for developers, created by developers. The following sections are organized alphabetically. Although we’ve had fun with the <i>Hitchhiker's Guide to the Galaxy</i> thread in this article, those who’ve read it know that it wasn’t really much of a guide at all.  We promise your experience with this guide will be much better than Arthur’s . Sit back and enjoy the ride.
 
 
-# Architectures
+# Key Terminology:
 
-***need input***
+### Cognitive analytic engine
 
-* [IBM Cloud Architectures](https://www.ibm.com/cloud/garage/architectures/)
+IBM Sterling Fulfillment Optimizer With Watson® is a cognitive analytic engine that enhances existing order management systems. It provides a “big data brain” for order management and inventory visibility systems that are already in place with retailers who have e-commerce fulfillment capability.
 
+### Customer requirement processing
 
-# Trends
+This provides the controlling of customer requirements in the supply chain, including checking product availability; receiving, preparing, and passing customer requirements on to supply planning and logistics; and providing feedback on fulfillment.
 
-* IoT - Supply chains will understand the state of things and take action
+### Demand Planning
 
-* Blockchain - Multi-enterprise network hubs will be enabled with blockchain giving power to companies of all sizes
+Looking at historical buying patterns, market forces, price fluctuations, weather patterns, the competitive landscape and many other factors to forecast how many of which product consumers will buy in the future.
 
-* Intelligent order management - Supply chains will orchestrate the perfect order and master inventory visibility.
+### Docker
 
-* Quantum - Quantum computing can crunch through numerous variables and factors, from more sources, faster and with greater accuracy.
+The term Docker indicates that everything needed to run an application is packaged in a container-based architecture that modernizes and increases solution delivery flexibility.
+
+### electronic supply chain managemnet (eSCM)
+
+eSCM is the evolving process of managing different supply streams digitally. To properly run a business, you must make sure that you have the correct stock, the ability to replenish inventory when you need to, and knowledge of how much you need to up-charge on your inventory to turn a profit. eSCM takes the concept of e-business and marries that with supply-chain management.
+
+### Supply chain business assistant (SCBA)
+
+SCBA is a framework built upon an open and hybrid multi-cloud. It enables supply chain domain-specific process automation. Developers describe the business domain of their supply chain to a machine, unlike traditional dialogs, which involves rule-based reasoning or predictive technology.
+
+### Inventory Management
+
+Inventory management is the supervision of non-capitalized assets (inventory) and stock items. A component of supply-chain management, inventory management supervises the flow of goods from manufacturers to warehouses and from these facilities to point of sale.
+
+### Multi-channel Order Aggregation
+
+This process collects orders from more than one channel (web site, online marketplaces, call center, distributor, etc) and aggregates them into a single location or data set, such as into your own order management system or that of a third party.
+
+### Order Management System
+
+ Order management builds on multi-channel order aggregation and allows users to manage the orders from the time the order is received until it is fulfilled and the product is in the hands of the customer.  It allows for order changes, cancellations, split shipments, etc.  It also enables cross channel activity such as buy online- pick up in store (BOPIS).
+
+### Purchase Order processing
+
+This is the journey of a purchase order (PO) from creation through approval, dispatch, delivery, invoicing, payment and closure. The lifecycle of a PO is also called the Order to Cash process or O2C.  It also includes budget checks, contract management, quality checks, and more. It is advantageous to make use of a cloud-based solution for PO processing.
+
+### Return Management
+
+This is the supply chain management process by which activities associated with returned product, reverse logistics, gatekeeping, and avoidance are managed within the business and across key participants of the supply chain.
+
+### Transportation Management System - TMS
+
+A transportation management system is a software application that manages the logistics in the supply chain including the loading and routing of shipments, the manifests and bills of lading for shipments and many details related to relationships with shipping vendors and logistics service providers.
+
+### Warehouse Management
+
+A warehouse management system is a software application designed to support and optimize warehouse functionality and distribution center management.
+
+# Technologies
+
+### AI
+
+Artificial intelligence elegantly embedded in everyday tasks will drive dramatic processes efficiencies in the future and will change 100% of jobs across the globe.
+
+### Blockchain
+
+Multi-enterprise network hubs will be enabled with blockchain, giving power to companies of all sizes.
+
+### IoT – Internet of Things
+
+Supply chains will understand the state of things and take action.
+
+### Quantum
+
+Quantum computing can crunch through numerous variables and factors, from more sources, faster and with greater accuracy.
 
 
 # Summary
-Supply chain management and shipping logistics is big business. The evolution of blockchain technology – which allows greater transparency, security and trust in supply chain operations – mean that specialists and app developers are poised to profit greatly from the emerging demand for smarter supply chain management software.
+
+Supply chain management is big business. The evolution of AI, blockchain and other technologies means that specialists and app developers are poised to profit greatly from the emerging demand for smarter supply chain management software.
+
 
 ### Related Links
 
